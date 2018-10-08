@@ -1,0 +1,6 @@
+[submodule "hidapi"]
+	path = hidapi
+	url = https://github.com/PastaJ36/hidapi
+[submodule "wooting-rgb-sdk"]
+	path = wooting-rgb-sdk
+	url = https://github.com/WootingKb/wooting-rgb-sdk
