@@ -32,5 +32,8 @@ example: WootingOne-ProfileChanger.exe 2
 
 ## Known Bugs
 If you still press a key while the program is started this key will permanent spawn due to a bug in the firmware of the keayboard, because windows don't register the keyup event from the keyboard.
+
+## License
+This project is licensed under the Mozilla Public License Version 2.0 - see the [LICENSE](README.md) file for details
 <hr>
 <i>Created with visual studio 2017 (Community).</i>
