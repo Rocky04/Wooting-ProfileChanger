@@ -15,7 +15,7 @@ This project will allow you to build an modify your own Profile Changer for the 
 ```
 git clone --recurse-submodules https://github.com/Rocky04/WootingOne-ProfileChanger.git
 ```
-Open the visual studio project file "windows\WootingOne-ProfileChanger.vcxproj" and select your target settings.
+Open the visual studio project file "WootingOne-ProfileChanger\windows\WootingOne-ProfileChanger.vcxproj" and select your target settings.
 
 ## Program Manual
 ```
@@ -31,7 +31,7 @@ example: WootingOne-ProfileChanger.exe 2
 ```
 
 ## Known Bugs
-If you still press a key while the program is started this key will permanent spawn due to a bug in the firmware of the keayboard, because windows don't register the keyup event from the keyboard.
+If you still press a key while the program is started this key will permanent spawn due to a bug in the firmware of the keyboard, because windows can't register the keyup event from the keyboard.
 
 ## License
 This project is licensed under the Mozilla Public License Version 2.0 - see the [LICENSE](LICENSE) file for details
