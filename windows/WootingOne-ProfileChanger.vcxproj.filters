@@ -16,6 +16,9 @@
     <Filter Include="Quelldateien\extern">
       <UniqueIdentifier>{bfe7bc8c-a332-453e-9d23-94e4271b0439}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Quelldateien\header">
+      <UniqueIdentifier>{90a79c54-2220-4c5e-b0c5-4e48e2b0c2e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\WootingOne-ProfileChanger.c">
@@ -27,5 +30,10 @@
     <ClCompile Include="..\wooting-rgb-sdk\src\wooting-usb.c">
       <Filter>Quelldateien\extern</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\header\debug.h">
+      <Filter>Quelldateien\header</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
