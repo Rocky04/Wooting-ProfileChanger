@@ -3,7 +3,7 @@ Changes the active profile to the given id.
 
 ## Precompiled binary
 
-The binary for Windows for x86 systems can be found here: https://github.com/Rocky04/Wooting-ProfileChanger/blob/master/windows/binary/Wooting-ProfileChanger.exe
+The binary for Windows for x86 systems can be found here: [https://github.com/Rocky04/Wooting-ProfileChanger/blob/master/windows/binary/Wooting-ProfileChanger.exe](https://github.com/Rocky04/Wooting-ProfileChanger/raw/master/windows/binary/Wooting-ProfileChanger.exe)
 
 
 ## Getting Started
