@@ -24,8 +24,8 @@
     <ClCompile Include="..\hidapi\windows\hid.c">
       <Filter>Quelldateien\extern</Filter>
     </ClCompile>
-    <ClCompile Include="..\wooting-rgb-sdk\src\wooting-usb.c">
-      <Filter>Quelldateien\extern</Filter>
+    <ClCompile Include="..\src\wooting-usb.c">
+      <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

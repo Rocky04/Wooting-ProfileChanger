@@ -21,7 +21,7 @@
   <ItemGroup>
     <ClCompile Include="..\hidapi\windows\hid.c" />
     <ClCompile Include="..\src\Wooting-ProfileChanger.c" />
-    <ClCompile Include="..\wooting-rgb-sdk\src\wooting-usb.c" />
+    <ClCompile Include="..\src\wooting-usb.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
