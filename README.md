@@ -1,6 +1,11 @@
 # Wooting-ProfileChanger
 Changes the active profile to the given id.
 
+## Precompiled binary
+
+The binary for Windows for x86 systems can be found here: https://github.com/Rocky04/Wooting-ProfileChanger/blob/master/windows/binary/Wooting-ProfileChanger.exe
+
+
 ## Getting Started
 
 This project will allow you to build an modify your own Profile Changer for the Wooting keyboards. It uses the source code from the project [wooting-rgb-sdk](https://github.com/WootingKb/wooting-rgb-sdk). If you are interested in more downloads and guides for the Wootings check out their [developer portal](https://dev.wooting.nl).
