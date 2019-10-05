@@ -1,9 +1,9 @@
-# WootingOne-ProfileChanger
+# Wooting-ProfileChanger
 Changes the active profile to the given id.
 
 ## Getting Started
 
-This project will allow you to build an modify your own Profile Changer for the Wooting One. It uses the source code from the project [wooting-rgb-sdk](https://github.com/WootingKb/wooting-rgb-sdk). If you are interested in more downloads and guides for the Wooting One check out their [developer portal](https://dev.wooting.nl).
+This project will allow you to build an modify your own Profile Changer for the Wooting keyboards. It uses the source code from the project [wooting-rgb-sdk](https://github.com/WootingKb/wooting-rgb-sdk). If you are interested in more downloads and guides for the Wootings check out their [developer portal](https://dev.wooting.nl).
 
 
 ### Prerequisites
@@ -13,13 +13,13 @@ This project will allow you to build an modify your own Profile Changer for the 
 
 ### Installing
 ```
-git clone --recurse-submodules https://github.com/Rocky04/WootingOne-ProfileChanger.git
+git clone --recurse-submodules https://github.com/Rocky04/Wooting-ProfileChanger.git
 ```
-Open the visual studio project file "WootingOne-ProfileChanger\windows\WootingOne-ProfileChanger.vcxproj" and select your target settings.
+Open the visual studio project file "Wooting-ProfileChanger\windows\Wooting-ProfileChanger.vcxproj" and select your target settings.
 
 ## Program Manual
 ```
-usage: WootingOne-ProfileChanger.exe ProfileID
+usage: Wooting-ProfileChanger.exe ProfileID
 
   ProfileID     The number for the new active profile from 0 to 3.
                    0 = digital profile
@@ -27,7 +27,7 @@ usage: WootingOne-ProfileChanger.exe ProfileID
                    2 = second analog profile
                    3 = third analog profile
 
-example: WootingOne-ProfileChanger.exe 2
+example: Wooting-ProfileChanger.exe 2
 ```
 
 ## Known Bugs

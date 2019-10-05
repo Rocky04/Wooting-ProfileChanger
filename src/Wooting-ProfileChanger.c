@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
 	// Check if the parameter count is correct
 	if (argc != 2)
 	{
-		printf("Error: There must be only a single paramter given.\n\n");
+		printf("Error: There must be only a single parameter given.\n\n");
 		printf("use parameter '/?' for help.\n");
 
 		return 1;

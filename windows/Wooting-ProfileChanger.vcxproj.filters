@@ -18,7 +18,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\WootingOne-ProfileChanger.c">
+    <ClCompile Include="..\src\Wooting-ProfileChanger.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="..\hidapi\windows\hid.c">
