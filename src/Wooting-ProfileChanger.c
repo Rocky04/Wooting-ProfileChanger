@@ -13,76 +13,76 @@ int main(int argc, char* argv[])
 	int status = true;
 
 
-	// Get the actual program name
-	programName = strrchr(argv[0], '\\');
+	//// Get the actual program name
+	//programName = strrchr(argv[0], '\\');
 
-	if (programName != 0)
-	{
-		programName++;
-	}
-	else
-	{
-		programName = argv[0];
-	}
-
-
-	// Check if the parameter count is correct
-	if (argc != 2)
-	{
-		printf("Error: There must be only a single parameter given.\n\n");
-		printf("use parameter '/?' for help.\n");
-
-		return 1;
-	}
+	//if (programName != 0)
+	//{
+	//	programName++;
+	//}
+	//else
+	//{
+	//	programName = argv[0];
+	//}
 
 
-	// Handle the help parameter
-	if (argv[1][0] == '/' && argv[1][1] == '?' && argv[1][2] == 0)
-	{
-		printf("Changes the active profile to the given id.\n\n");
-		printf("usage: %s ProfileID\n\n", programName);
-		printf("  ProfileID     The number for the new active profile from 0 to 3.\n");
-		printf("                   0 = digital profile\n");
-		printf("                   1 = first analog profile\n");
-		printf("                   2 = second analog profile\n");
-		printf("                   3 = third analog profile\n\n");
-		printf("example: %s 2\n", programName);
+	//// Check if the parameter count is correct
+	//if (argc != 2)
+	//{
+	//	printf("Error: There must be only a single parameter given.\n\n");
+	//	printf("use parameter '/?' for help.\n");
 
-		return 0;
-	}
+	//	return 1;
+	//}
 
 
-	// Determine the new active ProfileID
-	if (argv[1][1] == 0)
-	{
-		switch (argv[1][0])
-		{
-		case '0':
-			profileID = 0;
-			break;
-		case '1':
-			profileID = 1;
-			break;
-		case '2':
-			profileID = 2;
-			break;
-		case '3':
-			profileID = 3;
-			break;
-		default:
-			profileID = -1;
-		}
-	}
+	//// Handle the help parameter
+	//if (argv[1][0] == '/' && argv[1][1] == '?' && argv[1][2] == 0)
+	//{
+	//	printf("Changes the active profile to the given id.\n\n");
+	//	printf("usage: %s ProfileID\n\n", programName);
+	//	printf("  ProfileID     The number for the new active profile from 0 to 3.\n");
+	//	printf("                   0 = digital profile\n");
+	//	printf("                   1 = first analog profile\n");
+	//	printf("                   2 = second analog profile\n");
+	//	printf("                   3 = third analog profile\n\n");
+	//	printf("example: %s 2\n", programName);
+
+	//	return 0;
+	//}
 
 
-	// Check if ProfileID is a valid number in the allowed range
-	if (profileID == -1)
-	{
-		printf("Error: The ProfileID must be an integer from 0 to 3.\n\n");
-		printf("use parameter '/?' for help.\n");
+	//// Determine the new active ProfileID
+	//if (argv[1][1] == 0)
+	//{
+	//	switch (argv[1][0])
+	//	{
+	//	case '0':
+	//		profileID = 0;
+	//		break;
+	//	case '1':
+	//		profileID = 1;
+	//		break;
+	//	case '2':
+	//		profileID = 2;
+	//		break;
+	//	case '3':
+	//		profileID = 3;
+	//		break;
+	//	default:
+	//		profileID = -1;
+	//	}
+	//}
 
-		return 2;
-	}
+
+	//// Check if ProfileID is a valid number in the allowed range
+	//if (profileID == -1)
+	//{
+	//	printf("Error: The ProfileID must be an integer from 0 to 3.\n\n");
+	//	printf("use parameter '/?' for help.\n");
+
+	//	return 2;
+	//}
 
 
 	// Changing the active profile
